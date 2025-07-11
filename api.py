@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-GOOGLE_BOOKS_API_KEY = "AIzaSyBSFAic7qUOqbYGRo31bYJi7nloV11cTVo"
+GOOGLE_BOOKS_API_KEY = "Your Api Key"
 GOOGLE_BOOKS_API_BASE_URL = "https://www.googleapis.com/books/v1/volumes"
 
 def fetch_book_data(query):
